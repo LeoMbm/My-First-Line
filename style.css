@@ -1,0 +1,260 @@
+
+body{
+    /* font-family: Poppins; */
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+   }
+/* Menu Navigation */
+
+nav{
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 10px; */
+    padding: 20px
+    
+
+
+}
+
+nav .logo{
+    position: relative;
+    left: 100px;
+
+
+    /* margin: 40px; */
+   
+    
+}
+
+nav .menu li{
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: -0.405771px;
+    
+
+    
+}
+
+nav .menu a{
+
+    /* background-color: aqua; */
+    display: inline-block;
+    min-width: 150px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    transition: color 0.6s;
+    /* top: 16px; */
+
+}
+
+nav .menu a:hover{
+    color: #A9ABBD;
+
+}
+
+
+ nav .Login{
+    /* background-color:blueviolet; */
+    position: relative;
+    right: 80px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    cursor:pointer;
+
+
+}
+
+
+
+
+    nav .Login button{
+
+        padding: 10px 40px;
+        border: none;
+        cursor:pointer;
+        
+    }
+
+
+
+    nav .Login .in{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        background-color: inherit;
+        color:#783BFF;
+        letter-spacing: -0.405771px;
+        transition: color 0.6s;
+
+
+    }
+
+nav .Login .in:hover{
+        color: #A9ABBD;
+
+    }
+
+
+    nav .Login .up{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        background-color: inherit;
+        color:#783BFF;
+        border: solid 1.12714px #E1E4EB;
+        border-radius: 5.63571px;
+        letter-spacing: -0.405771px;
+        transition: color 0.6s;
+
+    }
+
+    nav .Login .up:hover{
+        color: #A9ABBD;
+
+    }
+
+    /* Corps de page */
+
+
+    main{
+
+        /* background-color:red; */
+        padding-left: 115px;
+    }
+main .left-title{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+
+
+
+
+}
+
+main .left-p{
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    position: relative;
+    top: -30px;
+
+    opacity: 0.4;
+    
+
+}
+
+
+    main .right{
+        float: right;
+        position: relative;
+        bottom: 450px;
+        right: 80px;
+        width: 516.53px;
+        height: 501.77px;
+        margin: 0 15px 15px 0;
+/* background-color:red; */
+    }
+
+
+input{
+    background-color:#f7f5f5;
+    /* padding: 18px; */
+    border-radius: 5.63571px;
+    width: 220px;
+    height: 50px;
+    position: relative;
+    top: -20px;
+    border-style: none;
+    text-align: center;
+}
+input:focus::placeholder{
+    color: transparent;
+}
+
+
+input::placeholder{
+    color: #A9ABBD;
+    text-align: center;
+    transition: color 0.5s ease;
+}
+
+.envoyer{
+    background-color: #6AC75A;
+    font-family: Poppins;
+    color: rgb(255, 255, 255,1);
+    border-style: none;
+    border-radius: 5.63571px;
+    width: 220px;
+    height: 50px;
+    position: relative;
+    left: 250px;
+    top: -73px;
+    cursor: pointer;
+    
+
+}
+.send button{
+    transition: background-color 0.6s;
+
+}
+.send button:hover{
+   
+        background-color: #A9ABBD;
+    
+    
+}
+
+#emailAddress{
+    font-family: Poppins, FontAwesome, sans-serif;
+}
+
+.trait{
+
+
+   
+    border-bottom: 1.13px solid #A9ABBD;
+    display: block;
+    width : 90%;   
+}
+
+.pied{
+/* 
+    background: black; */
+    margin: 50px;
+    padding: 50px;
+    height : 30px;
+    width : 100%px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+
+}
+
+.pied img{
+
+    /* background: red; */
+    padding-left: 100px;
+    position: relative;
+    left: 120px;
+    bottom: 50px;
+
+   
+}
